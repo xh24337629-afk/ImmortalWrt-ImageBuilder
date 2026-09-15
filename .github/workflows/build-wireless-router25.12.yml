@@ -590,7 +590,10 @@ jobs:
               glinet_gl-axt1800|glinet_gl-ax1800)
                   # 虽然它是高通ipq60xx平台 但由于都是gl机型 故放在一起 找起来方便
                   tag=qualcommax-ipq60xx-snapshot
-                  echo "platform=qualcommax/ipq60xx" >> $GITHUB_ENV
+                  echo "platform=qualcommax/ipq60xx"
+                inseego_fg2000
+                tag=qualcommax-ipq807x-snapshot
+                echo "platform=qualcommax/ipq807x" >> $GITHUB_ENV
                   ;;
               xiaomi_redmi-router-ax6s)
                   tag=mediatek-mt7622-openwrt-25.12.0
