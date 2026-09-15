@@ -302,6 +302,7 @@ on:
           - iptime_a6ns-m
           - iptime_a8004t
           - iptime_ax2004m
+          - inseego_fg2000
           - iptime_t5004
           - jcg_jhr-ac876m
           - jcg_q20
